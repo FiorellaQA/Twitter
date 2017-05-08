@@ -199,9 +199,70 @@ div.portada{
     border-radius: 4px 4px 0 0;
 }
 div.contenido{
-	height: 98px;
+	position: relative;
+    height: 98px;
+}
+div.imageCuadrado{
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 6px;
+    margin: -30px 0 0 8px;
+    padding: 1px;
+
+}
+div.imageCuadrado img{
+        border-radius: 7px;
+    height: 72px;
+    width: 72px;
+    border: 2px solid #fff;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+div.contenido-Name{
+    position: absolute;
+    top: 8px;
+    left: 90px;
+    width: 185px;
+}
+div.contenido-Name span:first-child{
+    font-weight: bold;
+}
+div.contenido-Name span.nameTag{
+    font-size: 14px;
+    color:#657786;
+}
+div.contenido-Estados{
+        flex-direction: row;
+    display: flex;
+    font-size: 10px;
+    color:#657786;
+}
+span.contentNumber{
+    font-size: 20px;
+    color:#990000;
 }
 
+div.trends{
+        background-color: #fff;
+    /* background-clip: inherit; */
+    border: 1px solid #e6ecf0;
+    /* border-radius: 5px; */
+    /* line-height: inherit; */
+    padding: 15px;
+}
+div.content-title{
+    display: flex;
+    flex-direction: row;
+}
+div.content-title h3{
+    font-size: 20px;
+    color:#66757f;
+}
+div.content-title span{
+    font-size: 10px;
+    color: #990000;
+}
 
 
 
